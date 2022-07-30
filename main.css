@@ -1,0 +1,962 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: 100%;
+    height: 788px;
+    background-image: url(https://city.nurzaman.kg/wp-content/uploads/2022/05/2-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid 1px white;
+    cursor: url(https://olimpstroi.kg/wp-content/plugins/mouse-cursor-customizer/cursor/cursor_file1/Безымянный-1-4-NEW_CURSOR.png), auto!important;
+    border-bottom: solid 1px green;
+    
+    
+}
+
+
+.hover__s{
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  display: flex;
+}
+.hover__1{
+  width: 50%;
+  height: 100%;
+}
+.hover__2{
+  width: 50%;
+  height: 100%;
+}
+.navs{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    top: 5%;
+    cursor: url(https://olimpstroi.kg/wp-content/plugins/mouse-cursor-customizer/cursor/cursor_file1/Безымянный-1-4-NEW_CURSOR.png), auto!important;
+}
+
+
+
+nav{
+    width: 90%;
+    height: 70px;
+    position: relative;
+    top: 2%;
+    margin: auto;
+}
+
+.nav1{
+    width: 15%;
+    height: 75%;
+    background-image: url(https://city.nurzaman.kg/wp-content/uploads/2021/12/loog.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+@keyframes flip {
+  50%{
+    transform: rotateX(180deg);
+  }
+  100%{
+    transform: rotateX(180deg)  rotateY(180deg);
+  }
+}
+.nav2{
+    width: 5%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+.settings{
+  width:15%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.live{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/2048px-WhatsApp_logo-color-vertical.svg.png )center/cover;
+  animation:  pulse 1300ms infinite;
+}
+@keyframes pulse{
+  0%{
+    box-shadow: rgb(0, 255, 0) 0 0 0 0;
+  }
+  75%{
+    box-shadow: #9dff0000 0 0 0 26px;
+  }
+}
+
+.live1{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png)center/cover;
+  animation:  pulse1 1300ms infinite;
+}
+@keyframes pulse1{
+  0%{
+    box-shadow: rgb(234, 0, 255) 0 0 0 0;
+  }
+  75%{
+    box-shadow: #ff69b400 0 0 0 26px;
+  }
+}
+
+.live2{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background:url(https://upload.wikimedia.org/wikipedia/commons/c/ce/Twitter_Logo.png)center/cover;
+  animation:  pulse2 1300ms infinite;
+}
+@keyframes pulse2{
+  0%{
+    box-shadow: rgb(0, 60, 255) 0 0 0 0;
+  }
+  75%{
+    box-shadow: #6987ff00 0 0 0 26px;
+  }
+}
+
+
+
+
+.icon__menu{
+    width: 50px;
+    height: 50px;
+    animation: flip 1s linear infinite;
+}
+
+#btn1{
+    background-color:transparent;
+    border: solid 0px;
+}
+
+.nav__a1{
+    width: 12%;
+    height: 50%;
+    /* background-color: #c08c0a; */
+    display: flex;
+    position: relative;
+    top: 19%;
+    font-family: sans-serif;
+    cursor:calc(1);
+}
+.nav-a1{
+    width: 90%;
+    margin: auto;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+
+
+.a2{
+    width: 30%;
+}
+
+
+
+  
+  
+.h4{
+    margin: auto;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+
+  
+  small {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  
+  .center {
+    text-align: center;
+  }
+  
+  section {
+    height: 100vh;
+  }
+  
+  /* NAVIGATION */
+  nav {
+    margin: 0 auto;
+  }
+  nav ul {
+    height: 100px;
+    list-style: none;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+    letter-spacing: 1px;
+  }
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+    transition: all .5s;
+  }
+  
+  
+  /* stroke */
+  nav.stroke ul li a,
+  nav.fill ul li a {
+    position: relative;
+  }
+  nav.stroke ul li a:after,
+  nav.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    height: 1px;
+  }
+  nav.stroke ul li a:hover:after {
+    width: 100%;
+  }
+  
+  nav.fill ul li a {
+    transition: all 2s;
+  }
+  
+  nav.fill ul li a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+  }
+  nav.fill ul li a:hover {
+    color: #fff;
+    z-index: 1;
+  }
+  nav.fill ul li a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+  }
+  
+  /* Circle */
+  nav.circle ul li a {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  nav.circle ul li a:after {
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '.';
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+  }
+  nav.circle ul li a:hover:after {
+    animation: circle 1.5s ease-in forwards;
+  }
+
+  nav.shift ul li a {
+    position:relative;
+    z-index: 1;
+  }
+  nav.shift ul li a:hover {
+    color: #91640F;
+  }
+  nav.shift ul li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+  }
+  nav.shift ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+  }
+  
+  
+  
+  /* Keyframes */
+  @keyframes fill {
+    0% {
+      width: 0%;
+      height: 1px;
+    }
+    50% {
+      width: 100%;
+      height: 1px;
+    }
+    100% {
+      width: 100%;
+      height: 100%;
+      background: rgb(9, 9, 9);
+
+    }
+  }
+  
+  /* Keyframes */
+  @keyframes circle {
+    0% {
+      width: 1px;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      height: 1px;
+      z-index: -1;
+      border-radius: 100%;
+    }
+    100% {
+      height: 5000%;
+      width: 5000%;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      border-radius: 0;
+    }
+  }
+.fill{
+    width: 60%;
+}
+  .fill ul {
+    width: 100%;
+  }
+
+  #offcanvas__body{
+    height: 50px;
+    background-color: rgb(181, 147, 56);
+  }
+  #offcanvasTop{
+    background-color: rgb(181, 147, 56);
+  }
+
+
+  .heads{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 30%;
+  }
+
+
+
+  .marquee-container{
+    display: flex;
+    align-items: center;
+    overflow-y:scroll;
+}
+.marquee{
+    font-size: 130px;
+    line-height: 1.3;
+    font-family:sans-serif;
+    color:rgb(249, 232, 232);
+    opacity: 1;
+    white-space: nowrap;
+    animation: marquee 15s infinite linear;
+}
+.marquee:after{
+    content: "Скидка до 30% && Квартиры от 10000 $ ";
+}
+
+@keyframes marquee{
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-50%)
+    }
+} 
+.marquee::-webkit-scrollbar {
+  width: 0%;
+}
+
+
+
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+
+  #d3__office{
+    width: 1300px;
+    height: 400px;
+  }
+  #object{
+    width: 30%;
+    height: 30%;
+    font-size: 50px;
+    color: rgba(28, 40, 79, 0.4);
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    position: relative;
+    top: 18%;
+    left: 15%;
+  }
+  .mains{
+    margin: auto;
+  }
+  #carousel__inner{
+    width: 100%;
+    margin: auto;
+  }
+
+  #carousel__item{
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-control-prev-icon{
+    background-color: black;
+  }
+  .carousel-control-next-icon{
+    background-color: black;
+  }
+ 
+  .section{
+    width: 100%;
+    height: 300px;
+  }
+
+
+  .caruss{
+    width: 100%;
+    height: 100px;
+  }
+ 
+
+
+  .mains{
+    width: 100%;
+    height: 700px;
+    /* background:url(https://www.openbusiness.ru/upload/iblock/faf/897h96jg7.jpg)center/cover; */
+    cursor:url(https://olimpstroi.kg/wp-content/plugins/mouse-cursor-customizer/cursor/cursor_file1/Безымянный-1-4-NEW_CURSOR.png), auto!important
+  }
+
+  .main{
+    width: 100%;
+    height: 100%;
+    background-color: #0e74a06c;
+  }
+  .main1{
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  #main2-1{
+    width: 30%;
+    height: 100%;
+  }
+  #main2-2{
+    width: 30%;
+    height: 100%;
+  }
+  #main2-3{
+    width: 30%;
+    height: 100%;
+  }
+  .main3{
+    width: 100%;
+    height: 30%;
+  }
+  #onas{
+    width: 30%;
+    height: 20%;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: relative;
+    left: 6%;
+    top: 10%;
+  }
+  #onas2{
+    width: 30%;
+    height: 20%;
+    color: rgba(255, 255, 255, 0.197);
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: relative;
+    left: 7%;
+  }
+  .apple1{
+    width: 50%;
+    height: 40%;
+    margin: auto;
+    background-image: url(https://cdn-icons.flaticon.com/png/512/5582/premium/5582225.png?token=exp=1658733714~hmac=594b7b013777dc2010ac4d6e42dc9a12);
+    filter: invert(1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .apple4{
+    width: 50%;
+    height: 40%;
+    margin: auto;
+    background-image: url(https://пансионат-заря.рф/frontend/web/tilda/images/conference_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .apple7{
+    width: 50%;
+    height: 40%;
+    margin: auto;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/107/107828.png);
+    filter: invert(1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #apple2{
+    width:100%;
+    margin: auto;
+    height: 15%;
+  }
+  #apple5{
+    width: 100%;
+    margin: auto;
+    height: 15%;
+  }
+  #apple8{
+    width: 100%;
+    margin: auto;
+    height: 15%;
+  }
+  .in-script{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .p5{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+.pods{
+  position: relative;
+  left: 37%;
+  height: 200px;
+  display: none;
+}
+.a1{
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+.d-block{
+  width: 90%;
+  height: 500px;
+  margin: auto;
+}
+
+
+
+
+
+
+.scroll__1{
+  width: 100%;
+  height: 850px;
+  overflow: scroll;
+  background-image: url(https://nurzaman.kg/whoostuc/2020/05/renoshsalieva1pp-min-scaled-2-scaled.jpeg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.layers{
+  width: 100%;
+  height: 1070px;
+  background-color: white;
+ 
+}
+
+.layer{
+  width: 60%;
+  height: 100%;
+  margin: auto;
+
+}
+.layer__top{
+  width: 100%;
+  height: 100%;
+}
+
+.rooms{
+  width: 45%;
+  height: 100%;
+  border-radius:20px ;
+}
+.layer__top__1{
+  background-image: url(https://goldenstroy.kg/wp-content/uploads/2020/01/1.-1-komnatnaya-kvartira-1024x724.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+
+}
+
+
+.layer__top__2{
+  background-image: url(https://goldenstroy.kg/wp-content/uploads/2020/01/12.-2-komnatnaya-kvartira-scaled.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  justify-content: end;
+}
+.layer__top__3{
+  background-image: url(https://goldenstroy.kg/wp-content/uploads/2020/01/4.-3-komnatnaya-kvartira-scaled.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.room_1{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.room_2{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.room_3{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.r1{
+  color: green;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-top: 20%;
+} 
+
+.layer__bottom{
+  width:100%;
+  background-color: rgba(0, 0, 0, 0.841);
+  z-index: 2;
+  margin: auto;
+  height: 500px;
+}
+
+.hitechs{
+  width: 100%;
+  height: 800px;
+  background-color: white;
+}
+.hitech__1{
+  width: 20%;
+  height: 15%;
+}
+.hitech__1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  .movin{
+    font-family:'Pacifico';
+    animation: movin 3s  infinite;
+    color: white;
+  }
+  @keyframes movin {
+    0%,39%,41%,59%,61%,100%{
+      text-shadow:
+      white 0 0 5px,
+      #ff3aad 0 0 10px,
+      #ff3aad 0 0 20px;
+    }
+    40%,60%{
+      text-shadow: none;
+    }
+  }
+
+.H1 {
+  display: inline-block;
+  position: relative;
+  letter-spacing: .05em;
+  font-size: 50px;
+  cursor: pointer;
+  text-shadow: 1px 1px mediumturquoise,
+               -1px 1px mediumturquoise,
+               -1px -1px mediumturquoise,
+               1px -1px mediumturquoise;
+  color: white;
+  transition: all 1s;
+  }
+  .H1:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -15px;
+    bottom: -15px;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(-45deg,
+      rgba(72, 209, 204, 0) 2px,
+      mediumturquoise 3px,
+      rgba(72, 209, 204, 0) 3px ) repeat;
+    background-size: 4px 4px;
+    }
+  .H1:after {
+    content: attr(data-name);
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    z-index: -2;
+    text-shadow: 1px 1px white,
+                 2px 2px white,
+                 3px 3px white,
+                 4px 4px white;
+    color: white;
+    transition: all 1s;
+    }
+  .H1:hover {
+    color: lemonchiffon;
+    }
+    .H1:hover:before {
+      animation: 5s move_lines infinite linear;
+      }
+    .H1:hover:after {
+      color: lemonchiffon;
+      text-shadow: 1px 1px lemonchiffon,
+        2px 2px lemonchiffon,
+        3px 3px lemonchiffon,
+        4px 4px lemonchiffon;
+      }
+
+@keyframes move_lines {
+  100% {
+    background-position: 40px 40px;
+  }
+}
+
+
+
+
+
+     
+
+
+
+
+.hover-effect-cover {
+  list-style:none;
+  margin: 0 auto;
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  padding: 0;
+}
+.hover-effect-cover li {
+  position: relative;
+  width: 49%; /* Задаем ширину элемента списка с картинкой*/
+  height: 340px;
+  display: inline-block;
+  background-color: #fff;
+  margin: 0;
+  border: 5px solid #fff;
+  box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+/* Заголовок, текст и ссылка */
+.hover-effect-cover li h3{
+  color: #fff;
+  margin: 5px;
+}
+.hover-effect-cover li p{
+  color: #fff;
+  margin: 5px;
+}
+.hover-effect-cover li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  color: #fff;
+  background: #000;
+  border-radius: 5px;
+  margin: 0 auto;
+  transition: all 0.4s ease-in-out;
+}
+.hover-effect-cover li a:hover {
+  background: #454545;
+  color: #fff;
+}
+/* Выезжающий блок с текстом для панели слева направо */
+.hover-effect-cover li > div.effect-to-right {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hover-effect-cover li:hover > div.effect-to-right {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.hover-effect-cover li div.effect-to-right {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Фон блока при наведении */
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+  transform: translate(-250px, 0px) rotate(0deg); /* Направление выезжающей панели */
+}
+.hover-effect-cover li:hover div.effect-to-right {
+  opacity: 1;
+  transform: translate(0px, 0px) rotate(0deg);
+}
+/* Выезжающий блок с текстом для панели справа налево */
+.hover-effect-cover li > div.effect-to-left {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hover-effect-cover li:hover > div.effect-to-left {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.hover-effect-cover li div.effect-to-left {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Фон блока при наведении */
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+  transform: translate(250px, 0px) rotate(0deg); /* Направление выезжающей панели */
+}
+.hover-effect-cover li:hover div.effect-to-left {
+  opacity: 1;
+  transform: translate(0px, 0px) rotate(0deg);
+}
+/* Выезжающий блок с текстом для панели снизу вверх */
+.hover-effect-cover li > div.effect-to-top {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hover-effect-cover li:hover > div.effect-to-top {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.hover-effect-cover li div.effect-to-top {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Фон блока при наведении */
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+  transform: translate(0px, 250px) rotate(0deg); /* Направление выезжающей панели */
+}
+.hover-effect-cover li:hover div.effect-to-top {
+  opacity: 1;
+  transform: translate(0px, 0px) rotate(0deg);
+}
+/* Выезжающий блок с текстом для панели сверху вниз */
+.hover-effect-cover li > div.effect-to-bottom {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hover-effect-cover li:hover > div.effect-to-bottom {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.hover-effect-cover li div.effect-to-bottom {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Фон блока при наведении */
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+  transform: translate(0px, -250px) rotate(0deg); /* Направление выезжающей панели */
+}
+.hover-effect-cover li:hover div.effect-to-bottom {
+  opacity: 1;
+  transform: translate(0px, 0px) rotate(0deg);
+}
